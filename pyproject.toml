@@ -1,0 +1,15 @@
+[project]
+name = "gcp-netrc-tools"
+version = "0.1.0"
+description = "Generate .netrc files for authenticating to Google Artifact Registry"
+authors = [
+  { name = "Rafael Eller", email = "rafael.eller@example.com" }
+]
+requires-python = ">=3.7"
+
+[project.scripts]
+create-netrc = "gcp_netrc_tools.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
