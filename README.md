@@ -17,11 +17,11 @@ You can run the CLI tool directly without cloning the repository:
 Example:
 
 ```bash
-uvx git+https://github.com/rafael-eller/gcp-netrc-tools.git create-netrc <REGION>
+uvx --from git+https://github.com/rafael-eller/gcp-netrc-tools.git create-netrc <REGION>
 ```
 For instance:
 ```bash
-uvx git+https://github.com/rafael-eller/gcp-netrc-tools.git create-netrc us-central1
+uvx --from git+https://github.com/rafellerc/gcp-netrc-tools.git create-netrc us-central1
 ```
 
 This will:
